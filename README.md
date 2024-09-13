@@ -14,13 +14,13 @@ Note: Memcached is required
 
 #Important to note
 * Each app generated comes with default endpoints such as below
-	**POST /register 	=> register for higher level users i.e admins
-	**POST /login		=> login for higher level users, returns session token to be used in POST /getUser
-	**GET /getUser	=> returns user details and settings
+	*POST /register 	=> register for higher level users i.e admins
+	*POST /login		=> login for higher level users, returns session token to be used in POST /getUser
+	*GET /getUser	=> returns user details and settings
 
-	**POST /registerCustomer 	=> register customer
-	**POST /loginCustomer		=> login for higher level users, returns session token to be used in POST /getUser
-	**GET /getCustomer	=> returns user details and settings
+	*POST /registerCustomer 	=> register customer
+	*POST /loginCustomer		=> login for higher level users, returns session token to be used in POST /getUser
+	*GET /getCustomer	=> returns user details and settings
 
 * The above endpoints are few of the default endpoints, please feel free to explore
 
